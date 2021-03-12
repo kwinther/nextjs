@@ -3,15 +3,14 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>OM FAGFREDAG</title>
       </Head>
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-      </main>
+      <div>
+        <h1 className={styles.title}> Fagfredag er awesome</h1>
+        <div className={styles.description}>Spread ur knowledge! Free XP!!</div>
+      </div>
     </div>
   );
 }

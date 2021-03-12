@@ -14,12 +14,15 @@ export default function Layout({ children }) {
       </Head>
       <div className={styles.topnav}>
         <Link href="/">
-          <a>HJEM</a>
+          <a>Heim</a>
         </Link>
         <Link href="/about">Om fagfredag</Link>
         <Link href="/characters">Characters</Link>
       </div>
       <main className={styles.main}>{children}</main>
+      <div className={styles.footer}>
+        <h3>Norconsult Informasjonssystemer FAGFREDAAAAAG</h3>
+      </div>
     </div>
   );
 }
